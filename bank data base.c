@@ -244,7 +244,7 @@ int main(void) {
             {
               FILE *FOut;
               FOut = fopen("base.txt", "w");
-              for(struct client* uk=head;uk!=NULL;uk=uk->next)
+              for(struct client* uk=head->next;uk!=NULL;uk=uk->next)
                 {
                   fprintf(FOut, "%s\n", uk->name);
                   fprintf(FOut, "%d\n", uk->id);
