@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 //Подходящий тип данных - двусзязный динамический список
 struct numb{
   unsigned long long num;
